@@ -1,2 +1,2 @@
 # NMCM-installer
-Our network monitor and container machine (nginx proxy manager, rpi monitor, 
+Our network monitor and container machine (nginx proxy manager and rpi monitor)
