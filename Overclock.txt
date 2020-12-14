@@ -1,0 +1,8 @@
+Overclock Commands and entries
+SSH into your Pi and run this command:
+sudo nano /boot/config.txt
+
+Then add these lines and save:
+over_voltage=2
+arm_freq=1750
+gpu_freq=750

@@ -1,0 +1,14 @@
+sudo apt update && sudo apt upgrade
+
+curl -sSL https://get.docker.com | sh
+
+sudo usermod -aG docker pi
+
+sudo docker pull portainer/portainer-ce
+
+sudo docker run --restart=always --name=portainer -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer-ce
+
+# http://[RASPBERRY_PI_IP_ADDRESS]:9000
+
+sudo reboot now
+
